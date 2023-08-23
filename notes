@@ -5,3 +5,8 @@ var keyword - Use when you expect the variable value can change.
 With val, the variable is read-only, which means you can only read, or access, the value of the variable. Once the value is set, you cannot edit or modify its value. With var, the variable is mutable, which means the value can be changed or modified. The value can be mutated.
 
 To remember the difference, think of val as a fixed value and var as variable. In Kotlin, it's recommended to use the val keyword over the var keyword when possible.
+
+
+UNIT TYPE
+The Unit type
+By default, if you don't specify a return type, the default return type is Unit. Unit means the function doesn't return a value. Unit is equivalent to void return types in other languages (void in Java and C; Void/empty tuple () in Swift; None in Python, etc.). Any function that doesn't return a value implicitly returns Unit. You can observe this by modifying your code to return Unit.
